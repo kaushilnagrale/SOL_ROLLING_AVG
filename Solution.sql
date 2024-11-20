@@ -21,3 +21,5 @@ rolling_avg AS (
 )
 SELECT transaction_date,total_amount,rolling_3_day_avg FROM rolling_avg
 WHERE transaction_date = '2021-01-31';
+
+
